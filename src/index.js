@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import QueueAnim from 'rc-queue-anim';
+import store from './store/store';
+import {Provider} from 'mobx-react'
 import './utils/axios'
 
 
@@ -9,12 +10,11 @@ import {BrowserRouter,Route} from 'react-router-dom'
 
 
 ReactDOM.render(
-    
-    <BrowserRouter>
-        {/* <QueueAnim > */}
+    <Provider store={store}>
+        <BrowserRouter>
             <Route component={App} key='a' />
-        {/* </QueueAnim> */}
-    </BrowserRouter>
+        </BrowserRouter>
+    </Provider>
 
     , 
 
