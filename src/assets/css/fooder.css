@@ -1,0 +1,15 @@
+
+/* 底部 */
+.fooder{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.fooder-box{
+    
+    line-height: 30px;
+    margin: 17px;
+    text-align: center;
+    font-size: 12px;
+    color: #b9b8b8;   
+}

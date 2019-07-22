@@ -1,0 +1,74 @@
+.reg{
+    background: url(./../../assets/images/background.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 548px;
+    padding: 80px 20px 20px;
+    box-sizing: border-box;
+}
+.reg-box_top{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: 100;
+}
+
+.reg-box{
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: rgba(16, 16, 16, 0.77);
+    border-radius: 10px;
+    box-shadow: 0 -5px 10px 1px rgba(16, 16, 16, 0.57);
+    border: 2px ridge rgba(238, 238, 238, 0.13);
+    padding: 20px;
+}
+.reg-top{
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+.form-input_txt{
+    font-size: 16px;
+    width: 90%;
+    border-bottom: rgba(238, 238, 238, 0.41) 1px solid;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.btn{
+    width: 50%;
+    border: 1px solid rgba(238, 238, 238, 0.41);
+    background: #000;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn:active{
+    background: rgba(19, 233, 233, 0.41)
+}
+.rememberme{
+
+    color: #EEE;
+}
+.rememberme label{
+    position: relative;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.router-btn{
+    position: absolute;
+    top:110px;
+    left:65%;
+    color:#888;
+    font-size:14px;
+    padding:5px;
+    border:1px solid #333;
+    width:40px;
+    text-align:center
+}
+

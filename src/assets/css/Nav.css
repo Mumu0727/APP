@@ -1,0 +1,71 @@
+.icon{
+    font-size: 46px !important;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 55px;
+}
+.list-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon-box{
+    padding-bottom: 10px;
+    width: 25%;
+    height: 82px;
+    text-align: center;
+}
+.list-text{
+    font-size: 14px;
+}
+.icons-list{
+    width: 100%;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.drawer{
+    height: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(48,52,53,.7);
+    position: fixed;
+    z-index: 999;
+}
+.drawer-end{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    z-index: 9999;
+}
+.drawer-box{
+    padding-top: 50px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.drawer-icon_box{
+    width: 90px;
+    line-height: 30px;
+    margin: 5px;
+    border-radius: 6px;
+    text-align: center;
+    background: #303435
+}
+.drawer-icon{
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.drawer-text{
+    font-size: 14px;
+    color: #fff;
+
+}
